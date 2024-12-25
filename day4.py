@@ -28,3 +28,9 @@ else:
 # do not include upperbound [)
 randr = random.randrange(1,3)
 print(randr)
+
+
+'''random.randint(a, b)	[a, b]	Yes
+random.randrange(a, b)	[a, b)	No
+random.uniform(a, b)	[a, b]	Yes (floating-point)
+random.random()	[0.0, 1.0)	No'''
